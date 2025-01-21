@@ -413,7 +413,7 @@ input:-internal-autofill-selected {
 .about-con-desc h3 {
     color: #D13333;
     font-family: "Playfair Display";
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 700;
     line-height: normal;
     margin: 0 0 24px;
@@ -440,7 +440,7 @@ input:-internal-autofill-selected {
 .story-right-desc h3 {
     color: #D13333;
     font-family: "Playfair Display";
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 700;
     line-height: normal;
     margin: 0 0 24px;
@@ -473,7 +473,7 @@ input:-internal-autofill-selected {
 .we-offer-title h3 {
     color: #333;
     font-family: "Playfair Display";
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 700;
     line-height: normal;
     margin: 0 0 30px;
@@ -511,7 +511,7 @@ input:-internal-autofill-selected {
 .offer-list-itmes h4 {
     color: #FFF;
     font-family: "Playfair Display";
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     line-height: normal;
     margin: 0 0 15px;
@@ -557,6 +557,71 @@ input:-internal-autofill-selected {
     fill: #FFD16C;
 }
 
+.contact-info-con{
+    margin: 0;
+    padding: 80px 0;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+.con-top-title{
+    position: relative;
+    display: block;
+    width: 100%;    
+}
+.con-top-title{
+    color: #D13333;
+    font-family: "Playfair Display";
+    font-size:50px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 30px;
+}
+
+.con-message{
+    display: block;
+    position: relative;
+}
+.con-message h4{
+    color: #323232;
+    font-family: 'Noto Sans';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 0 16px;
+}
+.con-message{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 0 16px;
+}
+.con-data-forms  form .row {
+    margin:0 -15px;
+}
+.con-list-info{
+    padding: 0 15px;
+}
+
+.con-list-info input[type="text"]{
+    border-bottom:1px solid rgba(33, 28, 28, 0.70);
+    padding: 18px 10px;
+}
+.con-list-info input[type="email"]{
+    border-bottom:1px solid rgba(33, 28, 28, 0.70);
+    padding: 18px 10px;
+}
+
+.con-list-info textarea{
+    border-bottom:1px solid rgba(33, 28, 28, 0.70);
+    padding: 18px 10px;
+}
+
+
 @media only screen and (min-width: 768px) {
     .inner-page-top-banner {
         height: 34.72vw;
@@ -576,7 +641,7 @@ input:-internal-autofill-selected {
     }
 
     .about-con-desc h3 {
-        font-size: 2.43vw;
+        font-size: 3.47vw;
         margin: 0 0 1.67vw;
     }
 
@@ -591,7 +656,7 @@ input:-internal-autofill-selected {
     }
 
     .story-right-desc h3 {
-        font-size: 2.43vw;
+        font-size: 3.47vw;
         margin: 0 0 1.67vw;
     }
 
@@ -606,7 +671,7 @@ input:-internal-autofill-selected {
     }
 
     .we-offer-title h3 {
-        font-size: 2.43vw;
+        font-size: 3.47vw;
         margin: 0 0 2.08vw;
     }
 
@@ -621,7 +686,7 @@ input:-internal-autofill-selected {
     }
 
     .offer-list-itmes h4 {
-        font-size: 1.53vw;
+        font-size: 1.39vw;
         margin: 0 0 1.04vw;
     }
 
@@ -652,7 +717,7 @@ input:-internal-autofill-selected {
     }
 
     .about-con-desc h3 {
-        font-size: 35px;
+        font-size: 50px;
         margin: 0 0 24px;
     }
 
@@ -667,7 +732,7 @@ input:-internal-autofill-selected {
     }
 
     .story-right-desc h3 {
-        font-size: 35px;
+        font-size: 50px;
         margin: 0 0 24px;
     }
 
@@ -682,7 +747,7 @@ input:-internal-autofill-selected {
     }
 
     .we-offer-title h3 {
-        font-size: 35px;
+        font-size: 50px;
         margin: 0 0 30px;
     }
 
@@ -697,7 +762,7 @@ input:-internal-autofill-selected {
     }
 
     .offer-list-itmes h4 {
-        font-size: 22px;
+        font-size: 20px;
         margin: 0 0 15px;
     }
 
